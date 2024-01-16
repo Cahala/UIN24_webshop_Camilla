@@ -79,4 +79,10 @@ nav a {
 nav a:hover {
     background-color: var(--yellow);
     color: var(--black);
+    border-bottom: 4px solid var(--black);
+}
+
+/*KATEGORI SIDE */
+main {
+    display: flex;
 }
