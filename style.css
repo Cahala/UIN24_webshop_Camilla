@@ -53,6 +53,31 @@ header {
     max-width: 15rem;
 }
 
+header button {
+    min-width: 3rem;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+
+}
+header button span {
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 0.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0.2rem;
+    position: absolute;
+    top: -0.4rem;
+    left: -0.9rem;
+}
+
 #carticon {
     max-width: 3rem;
 }
@@ -89,7 +114,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 1rem;
+    gap: 2rem;
     padding: 1rem;
 
 }
@@ -99,7 +124,7 @@ main h2 {
 }
 main article {
     flex-grow: 1;
-    max-width: 32%;
+    max-width: 31%;
     box-sizing: border-box;
     padding: 1rem;
     background-color: var(--black);
@@ -112,20 +137,24 @@ main article img {
 }
 main article h3 {
     margin: 0.25rem 0;
-
+    text-transform: uppercase;
 }
 main article a {
     color: var(--yellow);
     text-decoration: none;
+    font-size: 1rem;
 }
 main article span{
     display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
 }
 main article button {
     background-color: var(--green);
     color: var(--white);
     border: none;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     font-family: var(--font);
     cursor: pointer;
+    font-size: 1rem ;
 }
