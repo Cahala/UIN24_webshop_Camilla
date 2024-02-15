@@ -15,13 +15,14 @@ products.map(product => productsHTML += `<article>
 const main = document.getElementsByTagName("main")
 main [0].innerHTML = productsHTML
 
+
+
+
 //HANDELEVONGFUNKSJONALITET
 document.getElementById("carttoggle").addEventListener("click", function() {
     const cart = document.getElementById("cart")
     cart.classList.toggle("show")
 })
-
-
 
 function addToCart(productid) {
     //console.log("addToCart kjører: " + productid)
